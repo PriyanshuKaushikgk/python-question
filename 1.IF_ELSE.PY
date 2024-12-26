@@ -85,13 +85,25 @@
 #     print("{0} is not a leap year".format(year))
 
 # 11. Write a python program to check prime number.
-num  = int(input("Enter the number:"))
-if num ==1:
-    print(f"Number is  {num} : Not a Prime Number")
-if num >1:
-    for i in range(2,num):
-        if(num%i==0):
-            print(f"Number is {num} : not a prime Number")
-            break
-    else:
-        print(f"number is {num} : Prime Number")
+# num  = int(input("Enter the number:"))
+# if num ==1:
+#     print(f"Number is  {num} : Not a Prime Number")
+# if num >1:
+#     for i in range(2,num):
+#         if(num%i==0):
+#             print(f"Number is {num} : not a prime Number")
+#             break
+#     else:
+#         print(f"number is {num} : Prime Number")
+
+# 12. Write a python program to print all prime number in an interval.
+# num1 = int(input("Enter the first number:"))
+# num2 = int(input("Enter the second number:"))
+# for num in range(num1,num2+1):
+#     if num>1:
+#         for i in range(2,num):
+#             if num%i==0:
+#                 break
+
+#         else:
+#             print(num)

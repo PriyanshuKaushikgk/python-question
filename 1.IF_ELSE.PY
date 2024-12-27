@@ -120,4 +120,3 @@
 #         factorial = factorial*i
 #     print(f"Factorial of {num} is {factorial}")
         
-# 14. Write a python program to display the multiplication table.

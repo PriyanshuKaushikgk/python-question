@@ -171,14 +171,124 @@
 
 
 
-# three number maximum programm
-a = int(input("Enter the number1:"))
-b = int(input("Enter the number2:"))
-c = int(input("Enter the number3:"))
-number = [a,b,c]
-maximum = number[0]
-for i in number:
-    if i >maximum:
-        maximum = i
+# 12. three number maximum programm
+# a = int(input("Enter the number1:"))
+# b = int(input("Enter the number2:"))
+# c = int(input("Enter the number3:"))
+# number = [a,b,c]
+# maximum = number[0]
+# for i in number:
+#     if i >maximum:
+#         maximum = i
 
-print("The maximum number is :",maximum)
+# print("The maximum number is :",maximum)
+
+
+# 13.  number input 
+# >40 
+# average 
+# 3. 45 to 50 – D
+# 4. 50 to 60 – C
+# 5. 60 to 80 – B
+# 6. Above 80 – A 
+# otherwise fail 
+
+# marks = int(input("Enter the number:"))
+# if marks<=40:
+#     print("Fail")
+# elif(marks>=45 and marks<=50):
+#     print("D")
+# elif(marks>=50 and marks<=60):
+#     print("C")
+# elif(marks>=60 and marks<=80):
+#     print("B")
+# elif(marks>=80):
+#     print("A")
+# else:
+#     print("Invalid input")
+
+# 14. five number maximum programm
+
+# a = int(input("Enter the number 1:"))
+# b = int(input("Enter the number 2:"))
+# c = int(input("Enter the number 3:"))
+# d = int(input("Enter the number 4:"))
+# e = int(input("Enter the number 5:"))
+# number = [a,b,c,d,e]
+# maximum = number[0]
+# for i in  number:
+#     if i>maximum:
+#         maximum = i
+# print("The maximum number is :",maximum)
+
+
+
+#  another method------>>>>>
+
+# a = int(input("Enter the number 1:"))
+# b = int(input("Enter the number 2 :"))
+# c = int(input("Enter the number 3:"))
+# d = int(input("Enter the number 4:"))
+# e  = int(input("Enter the number 5:"))
+# if a>b and a>c and a>d and a>e:
+#     print("The maximum number is :",a)
+
+# elif b>a and b>c and b>d and b>e:
+#     print("The maximum number is :",b)
+# elif c>a and c>b and c>d and c>e:
+#     print("The maximum number is :",c)
+# elif d>a and d>b and d>c and d>e:
+#     print("The maximum number is :",d)
+# elif e>a and e>b and e>c and e>d:
+#     print("The maximum number is :",e)
+# else:
+#     print("Invalid input")
+
+# 15. 5 number minimum programm
+
+# 16. salalry :
+# holidays (1) =full salary 
+# 2-5 =5% 
+# 5-14 =10% 
+# 15 =50% 
+# else =not salary 
+
+# output : 
+# name:
+# address: 
+# bank details: 
+# salary : 
+# alot :
+
+
+# name = input("Enter employee's name: ")
+# address = input("Enter employee's address: ")
+# bank_details = input("Enter employee's bank details: ")
+# base_salary = float(input("Enter employee's base salary: "))
+# holidays = int(input("Enter number of holidays taken: "))
+
+# if holidays == 1:
+#     salary = base_salary
+#     alot = "Full salary"
+# elif 2 <= holidays <= 5:
+#     salary = base_salary * 0.95
+#     alot = "5% deducted"
+#     print("5% deduction", base_salary * 5 / 100)
+# elif 6 <= holidays <= 14:
+#     salary = base_salary * 0.90
+#     alot = "10% deducted"
+# elif holidays == 15:
+#     salary = base_salary * 0.50
+#     alot = "50% deducted"
+# else:
+#     salary = 0
+#     alot = "No salary"
+
+# print("\nOutput:")
+# print(f"Name: {name}")
+# print(f"Address: {address}")
+# print(f"Bank Details: {bank_details}")
+# print(f"Salary: {salary}")
+# print(f"Alot: {alot}")
+
+
